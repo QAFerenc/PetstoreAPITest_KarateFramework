@@ -4,6 +4,8 @@ This project shows KarateFramework test automation for a backend defined on http
 
 KarateFramework is a test automation tool. For more information visit https://github.com/karatelabs/karate
 
+Running video : https://www.youtube.com/watch?v=8EXNehV5QYE
+
 This is a simple project, and does only 4 operations :
 
 1. Lists all pets with "available" status
