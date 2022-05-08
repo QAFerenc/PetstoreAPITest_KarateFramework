@@ -1,0 +1,19 @@
+<testsuite failures="0" name="src/test/java/FirstTest.feature" skipped="0" tests="1" time="9.490091">
+  <testcase classname="src.test.java.FirstTest" name="Test a sample GET API" time="9.490091">
+    <system-out>Given url 'https://petstore.swagger.io/v2/pet/findByStatus?status=available' . passed
+When method GET ........................................................... passed
+And status 200 ............................................................ passed
+And url 'https://petstore.swagger.io/v2/pet' .............................. passed
+And request {"id": 0,"category": {"id": 0,"name": "string"},"name": "doggie","photoUrls": ["string"],"tags": [{"id": 0,"name": "string"}],"status": "available"} . passed
+And method POST ........................................................... passed
+And status 200 ............................................................ passed
+And id=response.id ........................................................ passed
+And url 'https://petstore.swagger.io/v2/pet' .............................. passed
+And request {"id": '#(id)',"category": {"id": 0,"name": "string"},"name": "doggie","photoUrls": ["string"],"tags": [{"id": 0,"name": "string"}],"status": "sold"} . passed
+And method PUT ............................................................ passed
+And status 200 ............................................................ passed
+And url 'https://petstore.swagger.io/v2/pet/'+id .......................... passed
+And method DELETE ......................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>
